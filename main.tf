@@ -15,15 +15,14 @@ resource "aws_key_pair" "generated_key" {
   public_key = tls_private_key.example.public_key_openssh
 }
 
-
 resource "aws_instance" "web" {
-  ami                         = "ami-07efac79022b86107"
+  ami                         = "ami-03657b56516ab7912"
   instance_type               = "t2.micro"
   subnet_id                   = aws_subnet.subnet_public.id
   vpc_security_group_ids      = [aws_security_group.sg_22_80.id]
   associate_public_ip_address = true
   key_name      = aws_key_pair.generated_key.key_name
-  #user_data = " ${file("Bash_install_Ngnx.sh")} "
+  user_data = " ${file("Bash_install_Ngnx.sh")} "
 }
 
 output "public_ip" {
