@@ -1,4 +1,4 @@
-# DESPLIEGE DESDE TERRAFORM DE UN CONTAINER NGINX 
+# DESPLIEGE DE CONTAINER DOCKER NGINX EN INSTANCIA AWS CON TERRAFORM 
 
 El objetivo de este repositirio es mostrar como desplegar automáticamente desde terraform una instancia de AWS que contenga una imagen docker de Nginx.
 
