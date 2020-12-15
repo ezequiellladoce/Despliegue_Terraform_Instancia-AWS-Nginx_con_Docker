@@ -1,4 +1,4 @@
-# DESPLIEGE DE CONTAINER DOCKER NGINX EN INSTANCIA AWS CON TERRAFORM 
+# DESPLIEGUE DE CONTAINER DOCKER NGINX EN INSTANCIA AWS CON TERRAFORM 
 
 El objetivo de este repositorio es mostrar como desplegar automáticamente desde terraform una instancia de AWS que contenga una imagen docker de Nginx.
 
@@ -10,10 +10,10 @@ El objetivo de este repositorio es mostrar como desplegar automáticamente desde
 
 ## Comenzando 🚀
 
-1) Instalalamos Terrafom https://learn.hashicorp.com/tutorials/terraform/install-cli
+1) Instalamos Terrafom https://learn.hashicorp.com/tutorials/terraform/install-cli
 2) Creamos cuenta free tier en AWS  https://aws.amazon.com/
 3) Instalamos AWS CLI https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
-4) Creamos usario AWS en la seccion IAM con acceso Programatico y permisos de administrador https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html   
+4) Creamos usuario AWS en la sección IAM con acceso Programático y permisos de administrador https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html   
 5) Configuramos el AWS CLI https://docs.aws.amazon.com/polly/latest/dg/setup-aws-cli.html
 
 ## Despliegue 📦
